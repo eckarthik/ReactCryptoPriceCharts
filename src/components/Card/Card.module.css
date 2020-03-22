@@ -1,0 +1,27 @@
+.Card {
+    box-shadow: 0 .5em 1em -.125em rgba(10,10,10,.1),0 0 0 1px rgba(10,10,10,.02);
+    background-color: white;
+    position:relative;
+    margin:15px;
+    width: 375px;
+    box-sizing: border-box;
+}
+.CardHeader {
+    padding-left: 10px;
+    padding-right: 10px;
+    justify-content: space-between;
+    display: flex;
+    font-weight: bold;
+    padding-top:10px;
+    padding-left:20px;
+    padding-right:20px;
+}
+.CardContent {
+    height:150px;
+}
+.red-text {
+    color:red;
+}
+.bold {
+    font-weight:bold;
+}
